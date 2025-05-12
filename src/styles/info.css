@@ -1,0 +1,29 @@
+@font-face {
+    font-family: nameFont;
+    src: url(../assets/fonts/Philosopher/Philosopher-Regular.ttf);
+}
+
+.personalInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contacts {
+    display: flex;
+    gap: 1rem;
+}
+
+.CVName {
+    font-size: 4rem;
+    font-family: nameFont;
+}
+
+.email, .tel, .address {
+    font-weight: 700;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
